@@ -1,4 +1,4 @@
-baseurl: https://lymau.github.io
+baseurl: https://lymau-9af03.web.app/
 languageCode: en-us
 theme: hugo-theme-stack~
 paginate: 5
@@ -18,7 +18,7 @@ DefaultContentLanguage: id
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
 
-#Ignore erorr 
+#Ignore erorr
 ignoreError:
     - error-remote-getjson
 
@@ -120,15 +120,15 @@ params:
             emitMetadata: 0
 
         gitalk:
-            owner: 
-            admin:  
-            repo: 
-            clientID: 
-            clientSecret: 
-        
+            owner:
+            admin:
+            repo:
+            clientID:
+            clientSecret:
+
         cusdis:
-            host: 
-            id: 
+            host:
+            id:
 
     widgets:
         enabled:
