@@ -1,0 +1,26 @@
+{
+  "name": "lymau",
+  "version": "1.0.0",
+  "description": "Blog untuk berbagi kebaikan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lymau/blog.git"
+  },
+  "keywords": [],
+  "author": "Nur Sabilly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lymau/blog/issues"
+  },
+  "homepage": "https://github.com/lymau/blog#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-shell": "^0.8.0",
+    "workbox-build": "^6.3.0"
+  }
+}
