@@ -1,0 +1,41 @@
+[debug] [2021-10-15T16:24:22.173Z] ----------------------------------------------------------------------
+[debug] [2021-10-15T16:24:22.176Z] Command:       /usr/bin/node /home/mai/.node_modules/bin/firebase deploy
+[debug] [2021-10-15T16:24:22.176Z] CLI Version:   9.20.0
+[debug] [2021-10-15T16:24:22.176Z] Platform:      linux
+[debug] [2021-10-15T16:24:22.176Z] Node Version:  v16.9.1
+[debug] [2021-10-15T16:24:22.182Z] Time:          Fri Oct 15 2021 23:24:22 GMT+0700 (Western Indonesia Time)
+[debug] [2021-10-15T16:24:22.183Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-10-15T16:24:22.188Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-10-15T16:24:22.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-10-15T16:24:22.306Z] > authorizing via signed-in user (nursabilly.kun@gmail.com)
+[debug] [2021-10-15T16:24:22.307Z] [iam] checking project lymau-9af03 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-10-15T16:24:22.309Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-15T16:24:22.309Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-15T16:24:22.682Z] <<< HTTP RESPONSE 200 {"date":"Fri, 15 Oct 2021 16:24:22 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-15T16:24:22.696Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/lymau-9af03:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-10-15T16:24:23.245Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-10-15T16:24:23.246Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-10-15T16:24:24.008Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 15 Oct 2021 16:24:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=998","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-15T16:24:24.012Z] > refreshing access token with scopes: []
+[debug] [2021-10-15T16:24:24.012Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-15T16:24:24.274Z] <<< HTTP RESPONSE 200 {"date":"Fri, 15 Oct 2021 16:24:24 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-15T16:24:24.301Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/lymau-9af03 [none]
+[debug] [2021-10-15T16:24:24.899Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/lymau-9af03 200
+[debug] [2021-10-15T16:24:24.899Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/lymau-9af03 {"projectId":"lymau-9af03","projectNumber":"180693203721","displayName":"lymau","name":"projects/lymau-9af03","resources":{"hostingSite":"lymau-9af03"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'lymau-9af03'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-10-15T16:24:24.903Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-10-15T16:24:24.904Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-10-15T16:24:25.163Z] <<< HTTP RESPONSE 200 {"date":"Fri, 15 Oct 2021 16:24:25 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-10-15T16:24:25.178Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/lymau-9af03/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-10-15T16:24:27.059Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 15 Oct 2021 16:24:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[lymau-9af03]: beginning deploy... 
+[info] i  hosting[lymau-9af03]: found 166 files in public 
